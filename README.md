@@ -1,1 +1,1 @@
-# web_programming_KSU
+# Art Smith web programming course
