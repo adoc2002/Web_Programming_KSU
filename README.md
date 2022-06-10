@@ -1,1 +1,1 @@
-# Art Smith web programming course
+# Art Smiths GitHub Page for Web Programming at KSU
