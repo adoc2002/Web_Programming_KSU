@@ -9,4 +9,4 @@ def get_index():
 
 @app.route("/hello")   
 def get_hello():
-    return "<p> Hello and welcome to Flask</p>"
+    return render_template('hello.html')
