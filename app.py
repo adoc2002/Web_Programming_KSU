@@ -15,3 +15,8 @@ def get_hello():
 @app.route("/charisse")   
 def get_charisse():
     return render_template('hello.html', name = "Charisse")
+
+@app.route("/hi")
+@app.route("/hi/<name>")   
+def get_hi(name="Izzy"):
+    return render_template('hello.html', name = "name")
