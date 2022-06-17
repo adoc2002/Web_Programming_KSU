@@ -21,3 +21,14 @@ def get_charisse():
 @app.route("/hi/<name>")   
 def get_hi(name="Izzy"):
     return render_template('hello.html', name = "name")
+
+
+@app.route("/login", methods=["Get"])
+def get_login():
+    return render_template("login.html")
+
+@app.route("/login", methods=["Post"])
+def get_login():
+    return render_template("hello.html", name="art")
+
+
