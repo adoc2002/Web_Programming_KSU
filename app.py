@@ -23,12 +23,12 @@ def get_hi(name="Izzy"):
     return render_template('hello.html', name = "name")
 
 
-@app.route("/login", methods=["Get"])
+@app.route("/login", methods=["GET"])
 def get_login():
     return render_template("login.html")
 
-@app.route("/login", methods=["Post"])
+@app.route("/login", methods=["POST"])
 def get_login():
-    return render_template("hello.html", name="Art")
+    return render_template("hello.html", name="new login")
 
 
