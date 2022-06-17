@@ -29,6 +29,6 @@ def get_login():
 
 @app.route("/login", methods=["Post"])
 def get_login():
-    return render_template("hello.html", name="art")
+    return render_template("hello.html", name="Art")
 
 
